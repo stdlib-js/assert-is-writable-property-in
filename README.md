@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isWritablePropertyIn;
+})();
 })();
 </script>
 ```
@@ -141,6 +143,7 @@ bool = isWritablePropertyIn( obj, 'beep' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property-in@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isWritablePropertyIn( [ 'a' ], 'length' );
 // returns true
@@ -169,6 +172,7 @@ bool = isWritablePropertyIn( null, 'a' );
 bool = isWritablePropertyIn( void 0, 'a' );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -267,13 +271,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert-is-readable-property-in/tree/umd
+[@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert-is-readable-property-in/tree/umd/tree/umd
 
-[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in/tree/umd
+[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in/tree/umd/tree/umd
 
-[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert-is-writable-property/tree/umd
+[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert-is-writable-property/tree/umd/tree/umd
 
-[@stdlib/assert/is-write-only-property-in]: https://github.com/stdlib-js/assert-is-write-only-property-in/tree/umd
+[@stdlib/assert/is-write-only-property-in]: https://github.com/stdlib-js/assert-is-write-only-property-in/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
