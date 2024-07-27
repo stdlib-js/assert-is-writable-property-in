@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isWritablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property-in@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-writable-property-in/tags). For example,
+
+```javascript
 import isWritablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property-in@v0.2.2-esm/index.mjs';
 ```
 
@@ -127,7 +132,7 @@ bool = isWritablePropertyIn( obj, 'beep' );
 <body>
 <script type="module">
 
-import isWritablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property-in@v0.2.2-esm/index.mjs';
+import isWritablePropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-writable-property-in@esm/index.mjs';
 
 var bool = isWritablePropertyIn( [ 'a' ], 'length' );
 // returns true
